@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:duration="@android:integer/config_longAnimTime"
+    android:interpolator="@android:interpolator/fast_out_slow_in"
+    android:repeatCount="1"
+    android:repeatMode="reverse"
+    android:propertyName="pathData"
+    android:valueFrom="@string/body_path_from"
+    android:valueTo="@string/body_path_to"
+    android:valueType="pathType"
+    app:vc_valueType="pathType" />
